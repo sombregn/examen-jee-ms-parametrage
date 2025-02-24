@@ -5,28 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06897747-6e2e-4e7f-b567-481f338bcc5d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/19.1.8/tp-parametrage-front/.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/19.1.8/tp-parametrage-front/.tsbuildinfo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tp-parametrage/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tp-parametrage/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/business/classe/form-classe/form-classe.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/business/classe/form-classe/form-classe.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/business/classe/list-classe/list-classe.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/business/classe/list-classe/list-classe.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/business/program/form-program/form-program.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/business/program/form-program/form-program.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/business/program/form-program/form-program.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/business/program/form-program/form-program.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/business/program/list-program/list-program.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/business/program/list-program/list-program.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/business/registration/form-registration/form-registration.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/business/registration/form-registration/form-registration.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/business/registration/list-registration/list-registration.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/business/registration/list-registration/list-registration.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/business/student/form-student/form-student.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/business/student/form-student/form-student.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/business/student/form-student/form-student.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/business/student/form-student/form-student.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/business/student/list-students/list-students.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/business/student/list-students/list-students.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/component/sidebar/sidebar/sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/component/sidebar/sidebar/sidebar.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tp-parametrage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tp-parametrage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tp-parametrage/logs/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/../tp-parametrage/logs/logs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/academicyear/AcademieYearRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/academicyear/AcademieYearRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/classe/Classe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/classe/Classe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/classe/ClasseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/classe/ClasseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/classe/ClasseRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/classe/ClasseRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/classe/ClasseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/classe/ClasseResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/classe/ClasseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/classe/ClasseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/classe/ClasseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/classe/ClasseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/exception/APIException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/exception/APIException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/exception/ExceptionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/exception/ExceptionResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/registration/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/registration/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/registration/RegistrationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/registration/RegistrationMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/registration/RegistrationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/registration/RegistrationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/registration/RegistrationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/registration/RegistrationResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/registration/RegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/registration/RegistrationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/registration/RegistrationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tp-parametrage/src/main/java/com/isi/dev/tpparametrage/registration/RegistrationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tp-parametrage/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../tp-parametrage/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tp-parametrage/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../tp-parametrage/src/main/resources/messages.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740324739839</updated>
-      <workItem from="1740324742191" duration="27543000" />
+      <workItem from="1740324742191" duration="28838000" />
     </task>
     <servers />
   </component>
