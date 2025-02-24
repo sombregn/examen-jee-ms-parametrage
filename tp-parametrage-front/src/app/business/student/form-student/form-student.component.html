@@ -1,0 +1,206 @@
+<!--<div class="card shadow-lg">-->
+<!--  <div class="alert alert-danger mt-2" role="alert" *ngIf="errorMsg.length">-->
+<!--    <p class="p-0 m-0" *ngFor="let msg of errorMsg">{{msg}}</p>-->
+<!--  </div>-->
+<!--  <hr>-->
+<!--  <div class="text-center">-->
+<!--    <h5 class="mb-0 p-2 bg-success text-white d-inline-block">Ajouter un étudiant</h5>-->
+<!--  </div>-->
+<!--  <div class="card-body">-->
+<!--    <form>-->
+<!--      <div class="row mb-3">-->
+<!--        <div class="col-md-6">-->
+<!--          <label for="firstName" class="form-label">Prénom</label>-->
+<!--          <input [(ngModel)]="studentRequest.firstName" type="text" class="form-control" id="firstName" name="firstName" placeholder="Entrez le prénom">-->
+<!--        </div>-->
+<!--        <div class="col-md-6">-->
+<!--          <label for="lastName" class="form-label">Nom</label>-->
+<!--          <input [(ngModel)]="studentRequest.lastName" type="text" name="lastName" class="form-control" id="lastName" placeholder="Entrez le nom">-->
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      <div class="row mb-3">-->
+<!--        <div class="col-md-6">-->
+<!--          <label for="emailPro" class="form-label">Email Professionnel</label>-->
+<!--          <input type="email" [(ngModel)]="studentRequest.emailPro" class="form-control" name="emailPro" id="emailPro" placeholder="ex: pro@entreprise.com">-->
+<!--        </div>-->
+<!--        <div class="col-md-6">-->
+<!--          <label for="emailPerso" class="form-label">Email Personnel</label>-->
+<!--          <input [(ngModel)]="studentRequest.emailPerso" type="email" class="form-control" name="emailPerso" id="emailPerso" placeholder="ex: perso@gmail.com">-->
+<!--        </div>-->
+
+<!--      </div>-->
+
+<!--      <div class="row mb-3">-->
+<!--        <div class="col-md-6">-->
+<!--          <label for="phoneNumber" class="form-label">Téléphone</label>-->
+<!--          <input [(ngModel)]="studentRequest.phoneNumber" type="tel" name="phoneNumber" class="form-control" id="phoneNumber" placeholder="ex: +221 77 123 45 67">-->
+<!--        </div>-->
+<!--        <div class="col-md-6">-->
+<!--          <label for="adress" class="form-label">Adresse</label>-->
+<!--          <input [(ngModel)]="studentRequest.address" type="text" class="form-control" name="adress" id="adress" placeholder="Entrez l'adresse">-->
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      <div class="row mb-3">-->
+<!--        <div class="col-md-6">-->
+<!--          <label for="registrationNu" class="form-label">Registration Number</label>-->
+<!--          <input [(ngModel)]="studentRequest.registrationNu" type="text" name="registrationNu" class="form-control" id="registrationNu" placeholder="Entrer votre N° ex ISI-...">-->
+<!--        </div>-->
+<!--      </div>-->
+
+<!--&lt;!&ndash;      <div class="text-center mt-4">&ndash;&gt;-->
+<!--&lt;!&ndash;        <button (click)="saveStudent()" type="submit" class="btn btn-success">&ndash;&gt;-->
+<!--&lt;!&ndash;          <i class="bi bi-check-circle"></i> Enregistrer&ndash;&gt;-->
+<!--&lt;!&ndash;        </button>&ndash;&gt;-->
+<!--&lt;!&ndash;        <div class="text-center mt-3">&ndash;&gt;-->
+<!--&lt;!&ndash;          <a href="/students" class="btn btn-link">Retour à la liste</a>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;      </div>&ndash;&gt;-->
+
+<!--      <div class="text-center mt-4 d-flex justify-content-center gap-3">-->
+<!--        <button (click)="saveStudent()" type="submit" class="btn btn-success">-->
+<!--          <i class="bi bi-check-circle"></i> Enregistrer-->
+<!--        </button>-->
+<!--        <a href="/students" class="btn btn-secondary">-->
+<!--          <i class="bi bi-arrow-left-circle"></i> Retour à la liste-->
+<!--        </a>-->
+<!--      </div>-->
+
+<!--    </form>-->
+<!--  </div>-->
+<!--</div>-->
+
+
+
+<!--<div class="d-flex justify-content-center align-items-center min-vh-100">-->
+<!--  <div class="card w-50 w-md-75p-4" style="max-width: 600px;">-->
+<!--    <div class="alert alert-danger mt-2" role="alert" *ngIf="errorMsg.length">-->
+<!--      <p class="p-0 m-0" *ngFor="let msg of errorMsg">{{msg}}</p>-->
+<!--    </div>-->
+<!--    <hr>-->
+<!--    <div class="text-center">-->
+<!--      <h5 class="mb-0 p-3 bg-success text-white d-inline-block rounded shadow-sm">-->
+<!--        Add Student-->
+<!--      </h5>-->
+<!--    </div>-->
+<!--    <div class="card-body">-->
+<!--      <form>-->
+<!--        <div class="row g-3">-->
+<!--          &lt;!&ndash; Prénom et Nom &ndash;&gt;-->
+<!--          <div class="col-md-6">-->
+<!--            <label for="firstName" class="form-label">Prénom</label>-->
+<!--            <input [(ngModel)]="studentRequest.firstName" type="text" class="form-control" id="firstName" name="firstName" placeholder="Entrez le prénom">-->
+<!--          </div>-->
+<!--          <div class="col-md-6">-->
+<!--            <label for="lastName" class="form-label">Nom</label>-->
+<!--            <input [(ngModel)]="studentRequest.lastName" type="text" name="lastName" class="form-control" id="lastName" placeholder="Entrez le nom">-->
+<!--          </div>-->
+
+<!--          &lt;!&ndash;: Emails &ndash;&gt;-->
+<!--          <div class="col-md-6">-->
+<!--            <label for="emailPro" class="form-label">Email Professionnel</label>-->
+<!--            <input type="email" [(ngModel)]="studentRequest.emailPro" class="form-control" name="emailPro" id="emailPro" placeholder="ex: pro@entreprise.com">-->
+<!--          </div>-->
+<!--          <div class="col-md-6">-->
+<!--            <label for="emailPerso" class="form-label">Email Personnel</label>-->
+<!--            <input [(ngModel)]="studentRequest.emailPerso" type="email" class="form-control" name="emailPerso" id="emailPerso" placeholder="ex: perso@gmail.com">-->
+<!--          </div>-->
+
+<!--          &lt;!&ndash; : Téléphone et Adresse &ndash;&gt;-->
+<!--          <div class="col-md-6">-->
+<!--            <label for="phoneNumber" class="form-label">Téléphone</label>-->
+<!--            <input [(ngModel)]="studentRequest.phoneNumber" type="tel" name="phoneNumber" class="form-control" id="phoneNumber" placeholder="ex: +221 77 123 45 67">-->
+<!--          </div>-->
+<!--          <div class="col-md-6">-->
+<!--            <label for="adress" class="form-label">Adresse</label>-->
+<!--            <input [(ngModel)]="studentRequest.address" type="text" class="form-control" name="adress" id="adress" placeholder="Entrez l'adresse">-->
+<!--          </div>-->
+
+<!--          &lt;!&ndash;  Numéro d'enregistrement &ndash;&gt;-->
+<!--          <div class="col-md-6">-->
+<!--            <label for="registrationNu" class="form-label">Numéro d'enregistrement</label>-->
+<!--            <input [(ngModel)]="studentRequest.registrationNu" type="text" name="registrationNu" class="form-control" id="registrationNu" placeholder="Entrer votre N° ex: ISI-...">-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        &lt;!&ndash; Boutons &ndash;&gt;-->
+<!--        <div class="text-center mt-4 d-flex justify-content-center gap-3">-->
+<!--          <button (click)="saveStudent()" type="submit" class="btn btn-success btn-lg px-4">-->
+<!--            <i class="bi bi-check-circle"></i> Save-->
+<!--          </button>-->
+<!--          <a href="/students" class="btn btn-secondary btn-lg px-4">-->
+<!--            <i class="bi bi-arrow-left-circle"></i> Back-->
+<!--          </a>-->
+<!--        </div>-->
+<!--      </form>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+
+<div class="d-flex justify-content-center align-items-center min-vh-100">
+  <div class="card shadow-lg w-50 mx-auto rounded-3">
+    <div class="alert alert-danger mt-2" role="alert" *ngIf="errorMsg.length">
+      <p class="p-0 m-0" *ngFor="let msg of errorMsg">{{ msg }}</p>
+    </div>
+    <hr>
+    <div class="text-center">
+      <h5 class="mb-0 p-3 bg-success text-black d-inline-block rounded shadow-sm">
+        Add Student
+      </h5>
+    </div>
+    <div class="card-body">
+      <form>
+        <div class="row g-3">
+          <!-- Prénom et Nom -->
+          <div class="col-md-6">
+            <label for="firstName" class="form-label">Prénom</label>
+            <input [(ngModel)]="studentRequest.firstName" type="text" class="form-control" id="firstName" name="firstName" placeholder="Entrez le prénom">
+          </div>
+          <div class="col-md-6">
+            <label for="lastName" class="form-label">Nom</label>
+            <input [(ngModel)]="studentRequest.lastName" type="text" name="lastName" class="form-control" id="lastName" placeholder="Entrez le nom">
+          </div>
+
+          <!-- Emails -->
+          <div class="col-md-6">
+            <label for="emailPro" class="form-label">Email Professionnel</label>
+            <input type="email" [(ngModel)]="studentRequest.emailPro" class="form-control" name="emailPro" id="emailPro" placeholder="ex: pro@entreprise.com">
+          </div>
+          <div class="col-md-6">
+            <label for="emailPerso" class="form-label">Email Personnel</label>
+            <input [(ngModel)]="studentRequest.emailPerso" type="email" class="form-control" name="emailPerso" id="emailPerso" placeholder="ex: perso@gmail.com">
+          </div>
+
+          <!-- Téléphone et Adresse -->
+          <div class="col-md-6">
+            <label for="phoneNumber" class="form-label">Téléphone</label>
+            <input [(ngModel)]="studentRequest.phoneNumber" type="tel" name="phoneNumber" class="form-control" id="phoneNumber" placeholder="ex: +221 77 123 45 67">
+          </div>
+          <div class="col-md-6">
+            <label for="adress" class="form-label">Adresse</label>
+            <input [(ngModel)]="studentRequest.address" type="text" class="form-control" name="adress" id="adress" placeholder="Entrez l'adresse">
+          </div>
+
+          <!-- Numéro d'enregistrement -->
+          <div class="col-md-6">
+            <label for="registrationNu" class="form-label">Numéro d'enregistrement</label>
+            <input [(ngModel)]="studentRequest.registrationNu" type="text" name="registrationNu" class="form-control" id="registrationNu" placeholder="Entrer votre N° ex: ISI-...">
+          </div>
+        </div>
+
+        <!-- Boutons -->
+        <div class="text-center mt-4 d-flex justify-content-center gap-3">
+          <button (click)="saveStudent()" type="submit" class="btn btn-success text-black btn-lg px-4 fw-bold">
+            <i class="bi bi-check-circle"></i> Save
+          </button>
+          <a href="/students" class="btn btn-secondary text-black btn-lg px-4 fw-bold">
+            <i class="bi bi-arrow-left-circle"></i> Back
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+

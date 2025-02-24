@@ -1,0 +1,6 @@
+com\isi\dev\tpparametrage\registration\RegistrationServiceImplTest.class
+com\isi\dev\tpparametrage\classe\ClasseServiceImplTest.class
+com\isi\dev\tpparametrage\student\StudentServiceImpTest.class
+com\isi\dev\tpparametrage\academicyear\AcademieYearServiceImplTest.class
+com\isi\dev\tpparametrage\TpParametrageApplicationTests.class
+com\isi\dev\tpparametrage\program\ProgramServiceImplTest.class
