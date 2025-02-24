@@ -10,7 +10,7 @@ Ce projet est une application de gestion scolaire qui permet de gérer les étud
 git clone https://gitlab.com/isi-dev/microservices/scolaire-ms.git
 
 ### 2. Démarrer les services avec Docker Compose
-docker-compose up -d
+- **docker-compose up -d**
 
 ### 3. Démarrer le projet pour les tests
 ## Backend :
