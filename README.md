@@ -1,3 +1,5 @@
+# Nom et Prenom: BAH Alpha Souleymane
+
 # Projet Scolaire - Gestion des Étudiants, Classes et Programmes
 
 Ce projet est une application de gestion scolaire qui permet de gérer les étudiants, les classes, les programmes et les inscriptions. Il est développé avec une architecture microservices utilisant **Spring Boot** pour le backend et **Angular** pour le frontend. Le tout est conteneurisé avec **Docker**.
