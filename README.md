@@ -23,15 +23,15 @@ Assurez-vous que Angular CLI est installé, puis exécutez :
 ### 🛠 Technologies utilisées
 
 ### Backend :
-Spring Boot 3.4.2
-OpenAPI Documentation (Swagger UI) pour une documentation interactive.
-PostgreSQL et MySQL pour la gestion des bases de données.
-Keycloak 24+ pour l'authentification et l'autorisation.
+-**Spring Boot 3.4.2**
+-**OpenAPI Documentation (Swagger UI) pour une documentation interactive.**
+-**PostgreSQL et MySQL pour la gestion des bases de données.**
+-**Keycloak 24+ pour l'authentification et l'autorisation.**
 
 ### Frontend :
-Angular 19+
-Bootstrap et CSS3 pour le design.
-ngx-toastr pour les notifications visuelles.
+-**Angular 19+**
+-**Bootstrap et CSS3 pour le design.**
+-**ngx-toastr pour les notifications visuelles.**
 
 ### Infrastructure :
-Docker pour la conteneurisation.
+-**Docker pour la conteneurisation.**
