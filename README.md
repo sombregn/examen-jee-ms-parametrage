@@ -7,7 +7,7 @@ Ce projet est une application de gestion scolaire qui permet de gérer les étud
 ## 🚀 Prérequis pour démarrer le projet
 
 ### 1. Cloner le dépôt
-git clone https://gitlab.com/isi-dev/microservices/scolaire-ms.git
+git clone https://github.com/sombregn/examen-jee-ms-parametrage.git
 
 ### 2. Démarrer les services avec Docker Compose
 - **docker-compose up -d**
