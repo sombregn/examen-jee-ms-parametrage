@@ -13,7 +13,6 @@ import lombok.Setter;
 @AllArgsConstructor
 
 public class AcademieYearRequest {
-
     private Long id;
     @NotBlank(message = "L'année academie est requise")
     private String name;

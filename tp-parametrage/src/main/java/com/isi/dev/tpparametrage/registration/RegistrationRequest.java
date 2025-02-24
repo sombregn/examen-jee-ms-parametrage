@@ -28,8 +28,6 @@ public class RegistrationRequest {
     @NotNull(message = "Donner l'Id d'Etudiant")
     private Long studentId;
 
-//    @NotNull(message = "Donner l'Id d'utilisateur")
-//    private Long administrativeAgentId;
 
     @NotNull(message = "Donner l'Id de la Classe")
     private Long classeId;

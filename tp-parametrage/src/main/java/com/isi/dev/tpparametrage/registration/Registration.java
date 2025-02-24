@@ -29,10 +29,6 @@ public class Registration {
     @JoinColumn(name = "student_id", nullable = true)
     private Student student;
 
-//    @ManyToOne(fetch = FetchType.LAZY)
-//    @JoinColumn(name = "administrative_agent_id", nullable = true)
-//    private AdministrativeAgent administrativeAgent;
-
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "classe_id", nullable = true)
     private Classe classe;

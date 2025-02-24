@@ -51,12 +51,5 @@ public class ClasseController {
         return ResponseEntity.noContent().build();
     }
 
-    @PostMapping("/{classeId}/assign-subject/{subjectId}")
-    public ResponseEntity<ClasseResponse> assignSubjectToClasse(
-            @PathVariable Long classeId, @PathVariable Long subjectId
-    ){
-        ClasseResponse response = classeService.addSubjectToClasse(classeId, subjectId);
-        return ResponseEntity.ok(response);
-    }
 }
 

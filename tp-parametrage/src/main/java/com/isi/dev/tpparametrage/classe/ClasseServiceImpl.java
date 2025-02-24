@@ -71,16 +71,5 @@ public class ClasseServiceImpl implements ClasseService {
         classeRepository.delete(classe);
     }
 
-    @Override
-    public ClasseResponse addSubjectToClasse(Long classeId, Long subjectId) {
-//        var classe = classeRepository.findById(classeId)
-//                .orElseThrow(() -> new EntityNotFoundException(messageSource.getMessage("classe.notfound", new Object[]{classeId}, Locale.getDefault() )));
-//        var subject = subjectRepository.findById(subjectId)
-//                .orElseThrow(() -> new EntityNotFoundException(messageSource.getMessage("subject.notfound", new Object[]{subjectId}, Locale.getDefault() )));
-//        classe.getSubjects().add(subject);
-//        subject.getClasses().add(classe);
-//        return classeMapper.toClasseResponse(classeRepository.save(classe));
-        return null;
-    }
 
 }

@@ -12,7 +12,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ClasseRequest {
-
     private Long id;
     @NotBlank(message = "Le name est requis")
     private String name;

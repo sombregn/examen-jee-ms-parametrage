@@ -17,7 +17,6 @@ public class APIException {
     String message;
     HttpStatus status;
     LocalDateTime timestamp;
-
 }
 
 

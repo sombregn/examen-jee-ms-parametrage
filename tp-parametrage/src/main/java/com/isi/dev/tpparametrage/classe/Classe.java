@@ -29,5 +29,4 @@ public class Classe {
         this.description = description;
         this.archive = archive;
     }
-
 }

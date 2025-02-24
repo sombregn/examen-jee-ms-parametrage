@@ -45,8 +45,6 @@ public class RegistrationServiceImpl implements RegistrationService {
         var academieYear = academieYearRepository.findById(request.getAcademieYearId())
                 .orElseThrow(() -> new EntityNotFoundException(messageSource.getMessage("academieYear.notfound", new Object[]{request.getAcademieYearId()}, Locale.getDefault())));
 
-//        var administrativeAgent = administrativeAgentRepository.findById(request.getAdministrativeAgentId())
-//                .orElseThrow(() -> new EntityNotFoundException(messageSource.getMessage("administrativeAgent.notfound", new Object[]{request.getAdministrativeAgentId()}, Locale.getDefault())));
 
         if (registrationRepository.findByStudentIdAndClasseIdAndProgramIdAndAcademieYearId(
                 request.getStudentId(),
@@ -68,7 +66,6 @@ public class RegistrationServiceImpl implements RegistrationService {
         registration.setProgram(program);
         registration.setAcademieYear(academieYear);
         registration.setClasse(classe);
-//        registration.setAdministrativeAgent(administrativeAgent);
 
         var savedRegistration = registrationRepository.save(registration);
         return registrationMapper.toRegistrationResponse(savedRegistration);
@@ -97,9 +94,6 @@ public class RegistrationServiceImpl implements RegistrationService {
         var academieYear = academieYearRepository.findById(request.getAcademieYearId())
                 .orElseThrow(() -> new EntityNotFoundException(messageSource.getMessage("academieYear.notfound", new Object[]{request.getAcademieYearId()}, Locale.getDefault())));
 
-//        var administrativeAgent = administrativeAgentRepository.findById(request.getAdministrativeAgentId())
-//                .orElseThrow(() -> new EntityNotFoundException(messageSource.getMessage("administrativeAgent.notfound", new Object[]{request.getAdministrativeAgentId()}, Locale.getDefault())));
-
         var existingRegistration = registrationRepository.findByStudentIdAndClasseIdAndProgramIdAndAcademieYearId(
                 request.getStudentId(),
                 request.getClasseId(),
@@ -124,7 +118,6 @@ public class RegistrationServiceImpl implements RegistrationService {
         registration.setProgram(program);
         registration.setAcademieYear(academieYear);
         registration.setClasse(classe);
-//        registration.setAdministrativeAgent(administrativeAgent);
         registration.setDate(request.getDate());
         registration.setArchive(request.getArchive());
         registration.setDescription(request.getDescription());

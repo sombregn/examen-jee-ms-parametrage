@@ -17,29 +17,24 @@ import java.util.List;
 @Mapper(componentModel = "spring", uses =
         {
                 StudentRepository.class,
-//                AdministrativeAgentRepository.class,
                 ClasseRepository.class,
                 ProgramRepository.class,
                 AcademieYearRepository.class
         })
 public interface RegistrationMapper {
     @Mapping(source = "studentId", target = "student", qualifiedByName = "mapStudentIdToStudent")
-//    @Mapping(source = "administrativeAgentId", target = "administrativeAgent", qualifiedByName = "mapAdministrativeAgentIdToAdministrativeAgent")
     @Mapping(source = "classeId", target = "classe", qualifiedByName = "mapClasseIdToClasse")
     @Mapping(source = "programId", target = "program", qualifiedByName = "mapProgramIdToProgram")
     @Mapping(source = "academieYearId", target = "academieYear", qualifiedByName = "mapAcademieYearIdToAcademieYear")
     Registration toRegistration(RegistrationRequest request);
 
     @Mapping(source = "student.id", target = "studentId")
-//    @Mapping(source = "administrativeAgent.id", target = "administrativeAgentId")
     @Mapping(source = "classe.id", target = "classeId")
     @Mapping(source = "program.id", target = "programId")
     @Mapping(source = "academieYear.id", target = "academieYearId")
     @Mapping(source = "student.firstName", target = "studentFistName")
     @Mapping(source = "student.lastName", target = "studentLastName")
     @Mapping(source = "student.registrationNu", target = "registrationNu")
-//    @Mapping(source = "administrativeAgent.firstName", target = "administrativeFirstName")
-//    @Mapping(source = "administrativeAgent.lastName", target = "administrativeLastName")
     @Mapping(source = "program.name", target = "programName")
     @Mapping(source = "classe.name", target = "classeName")
     @Mapping(source = "academieYear.name", target = "academieName")
@@ -57,15 +52,6 @@ public interface RegistrationMapper {
         return student;
     }
 
-//    @Named("mapAdministrativeAgentIdToAdministrativeAgent")
-//    static AdministrativeAgent mapAdministrativeAgentIdToAdministrativeAgent(Long administrativeAgentId) {
-//        if (administrativeAgentId == null) {
-//            return null;
-//        }
-//        AdministrativeAgent administrativeAgent = new AdministrativeAgent();
-//        administrativeAgent.setId(administrativeAgentId);
-//        return administrativeAgent;
-//    }
 
     @Named("mapClasseIdToClasse")
     static Classe mapClasseIdToClasse(Long classeId) {
